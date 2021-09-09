@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAAF4EDF26BEF10E00DBED5F /* StewardTodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EDE26BEF10E00DBED5F /* StewardTodoAppApp.swift */; };
+		CAAF4EE126BEF10E00DBED5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EE026BEF10E00DBED5F /* ContentView.swift */; };
+		CAAF4EE326BEF11500DBED5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAF4EE226BEF11500DBED5F /* Assets.xcassets */; };
+		CAAF4EE626BEF11500DBED5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAF4EE526BEF11500DBED5F /* Preview Assets.xcassets */; };
+		CAAF4EEE26BEF15200DBED5F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EED26BEF15200DBED5F /* ToDo.swift */; };
+		CAAF4EF026BEF1F900DBED5F /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EEF26BEF1F800DBED5F /* DataStore.swift */; };
+		CAAF4EF226BEF45A00DBED5F /* ToDoFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EF126BEF45A00DBED5F /* ToDoFormViewModel.swift */; };
+		CAAF4EF426BEF59900DBED5F /* ToDoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EF326BEF59900DBED5F /* ToDoFormView.swift */; };
+		CAAF4EF626BEF92A00DBED5F /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF4EF526BEF92A00DBED5F /* ModalType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAAF4EDB26BEF10E00DBED5F /* StewardTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StewardTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAF4EDE26BEF10E00DBED5F /* StewardTodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StewardTodoAppApp.swift; sourceTree = "<group>"; };
+		CAAF4EE026BEF10E00DBED5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAAF4EE226BEF11500DBED5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAAF4EE526BEF11500DBED5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAAF4EE726BEF11500DBED5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAF4EED26BEF15200DBED5F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		CAAF4EEF26BEF1F800DBED5F /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		CAAF4EF126BEF45A00DBED5F /* ToDoFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormViewModel.swift; sourceTree = "<group>"; };
+		CAAF4EF326BEF59900DBED5F /* ToDoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormView.swift; sourceTree = "<group>"; };
+		CAAF4EF526BEF92A00DBED5F /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAAF4ED826BEF10E00DBED5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAAF4ED226BEF10E00DBED5F = {
+			isa = PBXGroup;
+			children = (
+				CAAF4EDD26BEF10E00DBED5F /* StewardTodoApp */,
+				CAAF4EDC26BEF10E00DBED5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAAF4EDC26BEF10E00DBED5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAAF4EDB26BEF10E00DBED5F /* StewardTodoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAAF4EDD26BEF10E00DBED5F /* StewardTodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				CAAF4EDE26BEF10E00DBED5F /* StewardTodoAppApp.swift */,
+				CAAF4EE026BEF10E00DBED5F /* ContentView.swift */,
+				CAAF4EE226BEF11500DBED5F /* Assets.xcassets */,
+				CAAF4EE726BEF11500DBED5F /* Info.plist */,
+				CAAF4EE426BEF11500DBED5F /* Preview Content */,
+				CAAF4EED26BEF15200DBED5F /* ToDo.swift */,
+				CAAF4EEF26BEF1F800DBED5F /* DataStore.swift */,
+				CAAF4EF126BEF45A00DBED5F /* ToDoFormViewModel.swift */,
+				CAAF4EF326BEF59900DBED5F /* ToDoFormView.swift */,
+				CAAF4EF526BEF92A00DBED5F /* ModalType.swift */,
+			);
+			path = StewardTodoApp;
+			sourceTree = "<group>";
+		};
+		CAAF4EE426BEF11500DBED5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAAF4EE526BEF11500DBED5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAAF4EDA26BEF10E00DBED5F /* StewardTodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAF4EEA26BEF11500DBED5F /* Build configuration list for PBXNativeTarget "StewardTodoApp" */;
+			buildPhases = (
+				CAAF4ED726BEF10E00DBED5F /* Sources */,
+				CAAF4ED826BEF10E00DBED5F /* Frameworks */,
+				CAAF4ED926BEF10E00DBED5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StewardTodoApp;
+			productName = StewardTodoApp;
+			productReference = CAAF4EDB26BEF10E00DBED5F /* StewardTodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAAF4ED326BEF10E00DBED5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CAAF4EDA26BEF10E00DBED5F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CAAF4ED626BEF10E00DBED5F /* Build configuration list for PBXProject "StewardTodoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAAF4ED226BEF10E00DBED5F;
+			productRefGroup = CAAF4EDC26BEF10E00DBED5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAAF4EDA26BEF10E00DBED5F /* StewardTodoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAAF4ED926BEF10E00DBED5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAF4EE626BEF11500DBED5F /* Preview Assets.xcassets in Resources */,
+				CAAF4EE326BEF11500DBED5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAAF4ED726BEF10E00DBED5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAF4EF426BEF59900DBED5F /* ToDoFormView.swift in Sources */,
+				CAAF4EF626BEF92A00DBED5F /* ModalType.swift in Sources */,
+				CAAF4EEE26BEF15200DBED5F /* ToDo.swift in Sources */,
+				CAAF4EF026BEF1F900DBED5F /* DataStore.swift in Sources */,
+				CAAF4EE126BEF10E00DBED5F /* ContentView.swift in Sources */,
+				CAAF4EDF26BEF10E00DBED5F /* StewardTodoAppApp.swift in Sources */,
+				CAAF4EF226BEF45A00DBED5F /* ToDoFormViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAAF4EE826BEF11500DBED5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAAF4EE926BEF11500DBED5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAAF4EEB26BEF11500DBED5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StewardTodoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 48R5R4VQ57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StewardTodoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdemsenol.StewardTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAAF4EEC26BEF11500DBED5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StewardTodoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 48R5R4VQ57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StewardTodoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdemsenol.StewardTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAAF4ED626BEF10E00DBED5F /* Build configuration list for PBXProject "StewardTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAF4EE826BEF11500DBED5F /* Debug */,
+				CAAF4EE926BEF11500DBED5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAF4EEA26BEF11500DBED5F /* Build configuration list for PBXNativeTarget "StewardTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAF4EEB26BEF11500DBED5F /* Debug */,
+				CAAF4EEC26BEF11500DBED5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAAF4ED326BEF10E00DBED5F /* Project object */;
+}
